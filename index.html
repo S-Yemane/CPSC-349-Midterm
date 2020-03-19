@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body class="container">
+    <section>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form login="form">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input class="form-control" name="fname" id="firstName" placeholder="First Name" autofocus>
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input class="form-control" name="lname" id="lastName" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="emailAddress">Email Address:</label>
+                        <input class="form-control" name="email" id="emailAddress" placeholder="Email Address">
+                      </div>
+                      <div class="form-group">
+                          <label>Major:</label>
+                          <label>
+                            <input type="radio" name="size" value="short" checked>
+                            CS
+                          </label>
+                          <label>
+                            <input type="radio" name="size" value="tall">
+                            CSCE
+                          </label>
+                          <label>
+                            <input type="radio" name="size" value="grande">
+                            MATH
+                          </label>
+                      </div>
+                      <button type="submit" class="btn btn-default border border-primary">Submit</button>
+                      <button type="reset" class="btn btn-default border border-secondary">Reset</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</body>
+</html>
